@@ -7,7 +7,9 @@ const NavigationBar = () => {
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">BOOK APP</a>
+                    <a className="navbar-brand text-primary fw-bold fs-3 tracking-wide" href="#">
+                        BOOK APP
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
